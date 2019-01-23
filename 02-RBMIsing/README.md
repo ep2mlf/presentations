@@ -35,14 +35,14 @@ rbm_talk$ make
 Once you have compiled the metropolis code and have a python environment with the necessary packages installed. You need to generate the training data. This is achieved simply by running
 
 ```
-./metro
+rbm_talk$ ./metro
 ```
 
 The metropolis algorithm is a well documented algorithm which can be used in the case of the Ising model to generate ensembles of states which are distributed according to the probability distribution defined in the slides (slide 9). The states are represented by vectors of zeros and ones where each number is the state of an individual spin, either spin up (one) or spin down (zero). If you want to know more about the Ising model then the Wikipedia page is quite easy to follow: https://en.wikipedia.org/wiki/Ising_model
 
 Once you have your states you're ready to run the notebook, whilst in this directory just run
 ```
-jupyter notebook rbm.ipynb
+rbm_talk$ jupyter notebook rbm.ipynb
 ```
 
 and have a play! Hopefully you can see roughly what we have done with the slides alongside the notebook but if you have any questions please don't hesitate to email either
